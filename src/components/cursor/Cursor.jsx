@@ -19,7 +19,7 @@ useEffect(() => {
 
   return (
     <motion.div 
-        className='cursor w-10 h-10 fixed '
+        className='cursor w-10 h-10 fixed hidden sm:block'
         style={{
           borderRadius:'50%',
           border:'2px solid rgb(101 163 13)',
