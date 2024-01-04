@@ -66,7 +66,7 @@ function SponserCard() {
       <Slider {...settings}>
         {Data.map((d) => (
           <div key={d.id} className="w-full rounded overflow-hidden mx-80">
-            <img className="w-40 ml-28" src={d.imgUrl} alt="Sunset in the mountains" />
+            <img className="w-10 md:w-40  ml-6 md:ml-28" src={d.imgUrl} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-sm md:text-xl text-center mb-2">{d.title}</div>
               <p className="text-gray-700 text-center text-base text-sm md:text-xl">
