@@ -8,37 +8,37 @@ const Data = [
     id: "1",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "../../public/car.png"
+    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
   },
   {
     id: "2",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "../../public/car.png"
+    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
   },
   {
     id: "3",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "../../public/car.png"
+    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
   },
   {
     id: "4",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "../../public/car.png"
+    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
   },
   {
     id: "5",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "../../public/car.png"
+    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
   },
   {
     id: "6",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "../../public/car.png"
+    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
   },
 ]
 
@@ -66,7 +66,7 @@ function SponserCard() {
       <Slider {...settings}>
         {Data.map((d) => (
           <div key={d.id} className="w-full rounded overflow-hidden mx-80">
-            <img className="w-full" src={d.imgUrl} alt="Sunset in the mountains" />
+            <img className="w-40 ml-28" src={d.imgUrl} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-sm md:text-xl text-center mb-2">{d.title}</div>
               <p className="text-gray-700 text-center text-base text-sm md:text-xl">

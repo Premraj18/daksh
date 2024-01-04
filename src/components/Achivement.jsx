@@ -6,37 +6,37 @@ const Data = [
         id: "1",
         title: "Racing Car",
         description: "Team Daksh proudly announces 2nd place in Shell Eco Marathon Asia 2012 in Kuala Lumpur, Malaysia. Beyond accolades, it's about the journey and conquering new heights together, fostering a spirit of continuous improvement and teamwork led by our passionate members.",
-        imgUrl: "../../public/car.png"
+        imgUrl: "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
     },
     {
         id: "2",
         title: "Racing Car",
         description: "Team Daksh proudly announces 2nd place in Shell Eco Marathon Asia 2012 in Kuala Lumpur, Malaysia. Beyond accolades, it's about the journey and conquering new heights together, fostering a spirit of continuous improvement and teamwork led by our passionate members.",
-        imgUrl: "../../public/car.png"
+        imgUrl: "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
     },
     {
         id: "3",
         title: "Racing Car",
         description: "Team Daksh proudly announces 2nd place in Shell Eco Marathon Asia 2012 in Kuala Lumpur, Malaysia. Beyond accolades, it's about the journey and conquering new heights together, fostering a spirit of continuous improvement and teamwork led by our passionate members.",
-        imgUrl: "../../public/car.png"
+        imgUrl: "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
     },
     {
         id: "4",
         title: "Racing Car",
         description: "Team Daksh proudly announces 2nd place in Shell Eco Marathon Asia 2012 in Kuala Lumpur, Malaysia. Beyond accolades, it's about the journey and conquering new heights together, fostering a spirit of continuous improvement and teamwork led by our passionate members.",
-        imgUrl: "../../public/car.png"
+        imgUrl: "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
     },
     {
         id: "5",
         title: "Racing Car",
         description: "Team Daksh proudly announces 2nd place in Shell Eco Marathon Asia 2012 in Kuala Lumpur, Malaysia. Beyond accolades, it's about the journey and conquering new heights together, fostering a spirit of continuous improvement and teamwork led by our passionate members.",
-        imgUrl: "../../public/car.png"
+        imgUrl: "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
     },
     {
         id: "6",
         title: "Racing Car",
         description: "Team Daksh proudly announces 2nd place in Shell Eco Marathon Asia 2012 in Kuala Lumpur, Malaysia. Beyond accolades, it's about the journey and conquering new heights together, fostering a spirit of continuous improvement and teamwork led by our passionate members.",
-        imgUrl: "../../public/car.png"
+        imgUrl: "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
     },
 ]
 
