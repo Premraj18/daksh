@@ -8,7 +8,7 @@ const ActivityCard = ({item}) => {
                     return(
                         <div
                         key={d.id}
-                        className="block border-t-[5px] border border-lime-600 w-full sm:w-80 rounded-lg  dark:bg-neutral-700 bg-white">
+                        className="block border-t-[5px] border border-lime-600 w-full sm:w-80 rounded-lg bg-white">
                         <a href="#!">
                             <img
                                 className="rounded-t-lg"
