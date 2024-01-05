@@ -1,7 +1,8 @@
-import React, { useMemo } from 'react';
+import React, { useContext, useMemo } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import myContext from '../../context/MyContext'
 
 const Data = [
   {
@@ -43,6 +44,8 @@ const Data = [
 ]
 
 function SponserCard() {
+  const context = useContext(myContext)
+  const { toggleMode, mode } = context
   const settings = useMemo(() => {
     return {
       autoplay: true,
@@ -58,7 +61,7 @@ function SponserCard() {
       horizontalSwiping: true,
       swipeToSlide: true,
       pauseOnHover: true,
-      variableWidth:false,
+      variableWidth: false,
     };
   }, []);
   return (
@@ -69,7 +72,7 @@ function SponserCard() {
             <img className="w-10 md:w-40  ml-6 md:ml-28" src={d.imgUrl} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-sm md:text-xl text-center mb-2">{d.title}</div>
-              <p className="text-gray-700 text-center text-base text-sm md:text-xl">
+              <p className="text-gray-700 text-center text-base  md:text-xl" style={{color: mode === 'dark' ? 'lightgray' : ''}}>
                 {d.description}
               </p>
             </div>

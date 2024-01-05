@@ -1,5 +1,6 @@
-import React, { useRef } from 'react'
+import React, { useContext, useRef } from 'react'
 import { motion } from 'framer-motion'
+import myContext from '../context/MyContext'
 
 const variants = {
     initial: {
@@ -18,8 +19,11 @@ const variants = {
 
 const About = () => {
     const ref = useRef()
+    const context = useContext(myContext)
+    const { toggleMode, mode } = context
+
     return (
-        <section className="flex items-center bg-stone-100 xl:h-screen font-poppins ">
+        <section className="flex items-center bg-stone-100 xl:h-screen font-poppins " style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', }}>
             <motion.div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 hidden sm:block"
                 variants={variants}
                 initial='initial'
@@ -31,7 +35,7 @@ const About = () => {
                             <motion.img src="https://i.postimg.cc/rF0MKfBV/pexels-andrea-piacquadio-3760263.jpg" alt="aboutimage"
                                 className="relative z-10 object-cover w-full rounded h-96" variants={variants} />
                             <motion.div
-                                className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-gray-300 dark:bg-gray-800 ">
+                                className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-8  " style={{ backgroundColor: mode === 'dark' ? '#3b3f47' : '',color: mode === 'dark' ? 'lightgray' : '',  }}>
                                 <p className="text-lg font-semibold md:w-72">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                         className="absolute top-0 left-0 w-16 h-16 text-lime-600 dark:text-gray-300 opacity-10"
@@ -46,12 +50,12 @@ const About = () => {
                     </motion.div>
                     <motion.div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 " variants={variants}>
                         <motion.div className="pl-4 mb-6 border-l-4 border-lime-600 " variants={variants}>
-                            <span className="text-sm text-gray-600 uppercase ">Who we are?</span>
+                            <span className="text-sm text-gray-600 uppercase " style={{color: mode === 'dark' ? 'white' : '', }}>Who we are?</span>
                             <h1 className="mt-2 text-3xl font-semibold text-lime-600 md:text-5xl ">
                                 About Us
                             </h1>
                         </motion.div>
-                        <motion.p className="mb-6 text-base leading-7 text-gray-500 " variants={variants}>
+                        <motion.p className="mb-6 text-base leading-7 text-gray-500 " variants={variants} style={{color: mode === 'dark' ? 'lightgrey' : '', }}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
@@ -69,7 +73,7 @@ const About = () => {
                 </div>
             </motion.div>
 
-            <section className="flex items-center bg-stone-100 xl:h-screen font-poppins sm:hidden">
+            <section className="flex items-center bg-stone-100 xl:h-screen font-poppins sm:hidden" style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', }}>
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 "
                 >
                     <div className="flex flex-wrap ">
@@ -78,8 +82,8 @@ const About = () => {
                                 <img src="https://i.postimg.cc/rF0MKfBV/pexels-andrea-piacquadio-3760263.jpg" alt="aboutimage"
                                     className="relative z-10 object-cover w-full rounded h-96" />
                                 <div
-                                    className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-gray-300 dark:bg-gray-800 ">
-                                    <p className="text-lg font-semibold md:w-72">
+                                    className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-8  " style={{ backgroundColor: mode === 'dark' ? '#3b3f47' : '', color: mode === 'dark' ? 'lightgray' : '', }}>
+                                    <p className="text-lg font-semibold md:w-72" >
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                             className="absolute top-0 left-0 w-16 h-16 text-lime-600 dark:text-gray-300 opacity-10"
                                             viewBox="0 0 16 16">
@@ -93,12 +97,12 @@ const About = () => {
                         </div>
                         <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
                             <div className="pl-4 mb-6 border-l-4 border-lime-600 ">
-                                <span className="text-sm text-gray-600 uppercase">Who we are?</span>
+                                <span className="text-sm text-gray-600 uppercase" style={{color: mode === 'dark' ? 'white' : '', }}>Who we are?</span>
                                 <h1 className="mt-2 text-3xl font-semibold text-lime-600 md:text-5xl ">
                                     About Us
                                 </h1>
                             </div>
-                            <p className="mb-6 text-base leading-7 text-gray-500">
+                            <p className="mb-6 text-base leading-7 text-gray-500" style={{color: mode === 'dark' ? 'lightgray' : '', }}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit

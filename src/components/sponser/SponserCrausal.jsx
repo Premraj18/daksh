@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import SponserCard from "./SponserCard";
+import myContext from '../../context/MyContext'
 
-const SponsorCrausal
-    = () => {
+const SponsorCrausal = () => {
+    const context = useContext(myContext)
+    const { toggleMode, mode } = context
+
         return (
-            <div className="w-full overflow-x-hidden">
+            <div className="w-full overflow-x-hidden" style={{ backgroundColor: mode === 'dark' ? '#262930' : 'white', color: mode === 'dark' ? 'white' : '' }}>
                 <div className='w-full'>
                     <h2 className='w-full text-3xl text-center font-semibold md:text-5xl my-12'>Our <span className='text-lime-600'>Sponsors</span></h2>
                 </div>

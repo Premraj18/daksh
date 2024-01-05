@@ -49,7 +49,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='lg:text-lg text-black'>
-                    <p>Designed By: <a href="" className='text-lime-600'>Abcdefgh</a> </p>
+                    <p style={{ color: mode === 'dark' ? 'white' : '', }}>Designed By: <a href="" className='text-lime-600'>Abcdefgh</a> </p>
                 </div>
             </div>
 
