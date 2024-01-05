@@ -46,12 +46,12 @@ const About = () => {
                     </motion.div>
                     <motion.div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 " variants={variants}>
                         <motion.div className="pl-4 mb-6 border-l-4 border-lime-600 " variants={variants}>
-                            <span className="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
+                            <span className="text-sm text-gray-600 uppercase ">Who we are?</span>
                             <h1 className="mt-2 text-3xl font-semibold text-lime-600 md:text-5xl ">
                                 About Us
                             </h1>
                         </motion.div>
-                        <motion.p className="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400" variants={variants}>
+                        <motion.p className="mb-6 text-base leading-7 text-gray-500 " variants={variants}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
@@ -69,7 +69,7 @@ const About = () => {
                 </div>
             </motion.div>
 
-            <section className="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 sm:hidden">
+            <section className="flex items-center bg-stone-100 xl:h-screen font-poppins sm:hidden">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 "
                 >
                     <div className="flex flex-wrap ">
@@ -93,12 +93,12 @@ const About = () => {
                         </div>
                         <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
                             <div className="pl-4 mb-6 border-l-4 border-lime-600 ">
-                                <span className="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
+                                <span className="text-sm text-gray-600 uppercase">Who we are?</span>
                                 <h1 className="mt-2 text-3xl font-semibold text-lime-600 md:text-5xl ">
                                     About Us
                                 </h1>
                             </div>
-                            <p className="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
+                            <p className="mb-6 text-base leading-7 text-gray-500">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
