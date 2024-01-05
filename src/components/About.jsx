@@ -24,7 +24,7 @@ const About = () => {
 
     return (
         <section className="flex items-center bg-stone-100 xl:h-screen font-poppins " style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', }}>
-            <motion.div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 hidden sm:block"
+            <motion.div className="justify-center flex-1 max-w-6xl py-4 mx-auto md:px-6 hidden sm:block"
                 variants={variants}
                 initial='initial'
                 whileInView='animate'

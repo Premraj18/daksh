@@ -13,7 +13,6 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '550px'
 }
 const slideImages = [
   {
@@ -36,7 +35,7 @@ const HeroSection = () => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})`, backgroundPosition:'center' }}>
+              <div className='h-[40vh] md:h-[80vh]' style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})`, backgroundPosition:'center' }}>
                 <span style={spanStyle}>{slideImage.caption}</span>
               </div>
             </div>
