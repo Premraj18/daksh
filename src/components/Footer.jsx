@@ -37,7 +37,7 @@ export default function Footer() {
                     </div>
 
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex flex-col justify-center items-center md:ml-28">
-                            <img src="../../public/nitjsrlogo.png" alt="" className='w-24' />
+                            <img src="/nitjsrlogo.png" alt="" className='w-24' />
                         <nav className="list-none mb-10">
                             <li>
                                 <p className="text-gray-600 hover:text-gray-800 lg:text-xl text-center" style={{ color: mode === 'dark' ? 'white' : '' }}>National Institute of Technology Jamshedpur</p>
