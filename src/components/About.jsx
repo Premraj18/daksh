@@ -19,7 +19,7 @@ const variants = {
 const About = () => {
     const ref = useRef()
     return (
-        <section className="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
+        <section className="flex items-center bg-stone-100 xl:h-screen font-poppins ">
             <motion.div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 hidden sm:block"
                 variants={variants}
                 initial='initial'
