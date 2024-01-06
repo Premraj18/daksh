@@ -10,15 +10,21 @@ import Home from './pages/Home';
 import MyState from './context/MyState';
 import Cursor from './components/cursor/Cursor';
 import Team from './pages/team/Team';
+import Participation from './pages/participation/Participation';
+import Achivement from './pages/achivement/Achivement';
+import ScrollToTop from './pages/ScrollToTop';
 
 const App = () => {
   return (
     <MyState>
       <Cursor/>
       <Router>
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ourteam" element={<Team />} />
+          <Route path="/participation" element={<Participation/>} />
+          <Route path="/achivements" element={<Achivement/>} />
         </Routes>
       </Router>
     </MyState>

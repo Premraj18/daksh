@@ -180,7 +180,7 @@ const Team = () => {
                         <button className="sm:w-36 w-28 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setItem(Data2k20)}>Batch 2k20</button>
                         <button className="sm:w-36 w-28 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setItem(Data2k19)}>Batch 2k29</button>
+                            onClick={() => setItem(Data2k19)}>Batch 2k19</button>
                        
                     </div>
 

@@ -12,6 +12,7 @@ const divStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  backgroundRepeat:'no-repeat',
   backgroundSize: 'cover',
 }
 const slideImages = [
@@ -20,11 +21,11 @@ const slideImages = [
     caption: 'Slide 1'
   },
   {
-    url: '/crausal1.jpg',
+    url: '/crausal2.jpg',
     caption: 'Slide 2'
   },
   {
-    url: '/crausal1.jpg',
+    url: '/crausal3.jpg',
     caption: 'Slide 3'
   },
 ];
@@ -32,7 +33,7 @@ const slideImages = [
 const HeroSection = () => {
     return (
       <div className="slide-container">
-        <Slide>
+        <Slide duration={4000}>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
               <div className='h-[40vh] md:h-[80vh]' style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})`, backgroundPosition:'center' }}>

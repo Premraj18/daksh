@@ -1,56 +1,110 @@
 [
     {
         "id": "1",
-        "name": "ABC",
+        "name": "Shrestha",
         "position": "Captain",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "2",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Astha",
+        "position": "Vice Captain",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "3",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Akshat",
+        "position": "Manager",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "4",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Summit",
+        "position": "Strategic & Planning Head",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "5",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Amar",
+        "position": "Suspension Head",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "6",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Reshabh",
+        "position": "Steering Head",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "7",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Viharika",
+        "position": "Sponsorship Head",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "8",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Harshit",
+        "position": "Creative Head",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     },
     {
         "id": "9",
-        "name": "ABC",
-        "position": "Captain",
+        "name": "Sougandha",
+        "position": "Cad & Cae Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Amit",
+        "position": "Manufacturing Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Swayam",
+        "position": "Manufacturing Co-Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Niharika",
+        "position": "Innovation Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Anket",
+        "position": "Innovation Co-Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Faizam",
+        "position": "Static Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Adityaraj",
+        "position": "Power Train Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Nandita",
+        "position": "Go Green Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Divyanshu",
+        "position": "Social Media Head",
+        "imgUrl": "/Team/2k21/person-icon.jpg"
+    },
+    {
+        "id": "18",
+        "name": "Aditya",
+        "position": "Breakes Head",
         "imgUrl": "/Team/2k21/person-icon.jpg"
     }
 ]

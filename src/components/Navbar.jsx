@@ -56,7 +56,7 @@ export default function Navbar() {
                     <Link to={'/'} className="text-sm font-medium text-gray-700 hover:text-lime-600" style={{ color: mode === 'dark' ? 'white' : '', }}>
                       HOME
                     </Link>
-                    <Link to={'/about'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
+                    <Link to={'participation'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                       Our Participation
                     </Link>
                     <Link to={'/achivements'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
@@ -69,7 +69,7 @@ export default function Navbar() {
                       OUR TEAM
                     </Link>
                     <Link to={'/sponser'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
-                      SPONSER US
+                      SPONSOR US
                     </Link>
                     <Link to={'/conatct'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                       CONTACT US
@@ -124,7 +124,7 @@ export default function Navbar() {
                   <Link to={'/'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
                     HOME
                   </Link>
-                  <Link to={'/about'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
+                  <Link to={'participation'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
                     OUR PARTICIPATION
                   </Link>
                   <Link to={'/achivements'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
@@ -137,7 +137,7 @@ export default function Navbar() {
                     OUR TEAM
                   </Link>
                   <Link to={'/sponser'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
-                    SPONSER US
+                    SPONSOR US
                   </Link>
                   <Link to={'/conatct'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
                     CONTACT US
