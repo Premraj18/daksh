@@ -57,7 +57,7 @@ export default function Navbar() {
                       HOME
                     </Link>
                     <Link to={'/about'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
-                      ABOUT US
+                      Our Participation
                     </Link>
                     <Link to={'/achivements'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                       ACHIEVEMENTS
@@ -125,7 +125,7 @@ export default function Navbar() {
                     HOME
                   </Link>
                   <Link to={'/about'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
-                    ABOUT US
+                    Our Participation
                   </Link>
                   <Link to={'/achivements'} className="text-sm font-medium text-gray-700 hover:text-lime-600 hover:scale-110" style={{ color: mode === 'dark' ? 'white' : '', }}>
                     ACHIEVEMENTS

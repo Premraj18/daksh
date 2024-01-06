@@ -9,6 +9,7 @@ import {
 import Home from './pages/Home';
 import MyState from './context/MyState';
 import Cursor from './components/cursor/Cursor';
+import Team from './pages/team/Team';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ourteam" element={<Team />} />
         </Routes>
       </Router>
     </MyState>
