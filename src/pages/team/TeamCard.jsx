@@ -24,7 +24,7 @@ const ActivityCard = ({item}) => {
     return (
         <>
         <motion.div className='container hidden sm:block w-full'>
-            <motion.div className='flex justify-center gap-x-4md:gap-x-16 gap-y-10 flex-wrap'
+            <motion.div className='flex justify-center gap-x-4 md:gap-x-16 gap-y-10 flex-wrap'
                 variants={variants}
                 initial='initial'
                 whileInView='animate'
