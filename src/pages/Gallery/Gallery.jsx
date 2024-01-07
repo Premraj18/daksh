@@ -5,7 +5,7 @@ import Manufacturing from './manufacturing.json'
 import Workshop from './Workshop.json'
 import events from './events.json'
 import GroupPhoto from './GroupPhoto.json'
-import Celebration from './Celebration.json'
+import Celebration from './celebration.json'
 import GalleryCard from './GalleryCard'
 
 const Gallery = () => {
