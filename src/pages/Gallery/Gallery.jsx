@@ -10,6 +10,10 @@ import GalleryCard from './GalleryCard'
 
 const Gallery = () => {
     const [item, setItem] = useState(manufacturing)
+    const [item2, setItem2] = useState(events)
+    const [item3, setItem3] = useState(Workshop)
+    const [item4, setItem4] = useState(GroupPhoto)
+    const [item5, setItem5] = useState(celebration)
     const context = useContext(myContext)
     const { toggleMode, mode } = context
     return (
@@ -22,15 +26,15 @@ const Gallery = () => {
 
                     <div className='flex justify-center flex-wrap w-full mb-48'>
                         <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setItem(manufacturing)}>Manufacturing</button>
+                            onClick={() => setItem(item)}>Manufacturing</button>
                         <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setItem(events)}>Events</button>
+                            onClick={() => setItem(item2)}>Events</button>
                         <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setItem(Workshop)}>Workshop</button>
+                            onClick={() => setItem(item3)}>Workshop</button>
                         <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setItem(GroupPhoto)}>Group Photos</button>
+                            onClick={() => setItem(item4)}>Group Photos</button>
                         <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setItem(celebration)}>Celebration</button>
+                            onClick={() => setItem(item5)}>Celebration</button>
                        
                     </div>
 
