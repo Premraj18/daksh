@@ -1,6 +1,8 @@
 import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import myContext from '../context/MyContext'
+import { BsTelephone } from 'react-icons/bs'
+import { MdMail } from 'react-icons/md'
 
 export default function Footer() {
     const context = useContext(myContext)
@@ -44,6 +46,12 @@ export default function Footer() {
                             </li>
                             <li>
                                 <p className="text-gray-600 hover:text-gray-800 lg:text-lg text-center" style={{ color: mode === 'dark' ? 'white' : '' }}>Adityapur, Jamshedpur, Jharkhand 831014</p>
+                            </li>
+                            <li>
+                                <p className="text-gray-600 hover:text-gray-800 lg:text-lg flex gap-x-5 my-3 items-center justify-center" style={{ color: mode === 'dark' ? 'white' : '' }}><BsTelephone size={25} color='#65a30d'/><span>+91 12345 21344</span></p>
+                            </li>
+                            <li>
+                                <p className="text-gray-600 hover:text-gray-800 lg:text-lg flex gap-x-5 my-3 items-center justify-center" style={{ color: mode === 'dark' ? 'white' : '' }}><MdMail size={25} color='#65a30d'/><span>example@gmail.com</span> </p>
                             </li>
                         </nav>
                     </div>
