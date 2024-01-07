@@ -14,6 +14,7 @@ import Participation from './pages/participation/Participation';
 import Achivement from './pages/achivement/Achivement';
 import ScrollToTop from './pages/ScrollToTop';
 import Gallery from './pages/Gallery/Gallery';
+import Sponser from './pages/Sponser/Sponser';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/participation" element={<Participation/>} />
           <Route path="/achivements" element={<Achivement/>} />
           <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/sponser" element={<Sponser/>} />
         </Routes>
       </Router>
     </MyState>

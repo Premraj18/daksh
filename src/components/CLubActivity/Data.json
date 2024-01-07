@@ -4,62 +4,62 @@
         "category":"events",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "2",
         "category":"events",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "3",
         "category":"manufacture",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "4",
         "category":"participation",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "5",
         "category":"manufacture",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "6",
         "category":"events",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "7",
         "category":"participation",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "8",
         "category":"events",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     },
     {
         "id": "9",
         "category":"manufacture",
         "title": "Detail",
         "description": "Any detail",
-        "imgUrl": "https://static.vecteezy.com/system/resources/thumbnails/013/923/535/small/sports-car-logo-png.png"
+        "imgUrl": "/about.jpg"
     }
 ]

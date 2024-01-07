@@ -3,6 +3,7 @@ import ActivityCard from './ActivityCard.jsx'
 import Buttons from './Buttons.jsx'
 import Data from './Data.json'
 import myContext from '../../context/MyContext'
+import { BsYoutube } from 'react-icons/bs'
 
 const ClubActivity = () => {
     const [item, setItem] = useState(Data)
@@ -22,10 +23,11 @@ const ClubActivity = () => {
             <div className='flex justify-center md:gap-x-24 gap-y-20 flex-wrap' style={{ marginTop: '-80px'}}>
                 <Buttons menuItems={menuItems} filterItems={filterItems} setItem={setItem}/>
                 <ActivityCard item={item}/>
-                <div className="w-full text-center mb-20">
-                    <a href="#"
-                        className="px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700">
-                        Read more
+                <div className="w-full text-center mb-10">
+                    <p className='text-lg md:text-2xl'>If you want to explore more you can check our Youtube Channel</p>
+                    <a href='https://www.youtube.com/@teamdaksh9836' target='_blank' className='cursor-pointer flex items-center h-20 w-full justify-center'>
+                        <BsYoutube size={40} color='red'/>
+                        <span className='text-xl mx-3'>Team Daksh</span>
                     </a>
                 </div>
             </div>
