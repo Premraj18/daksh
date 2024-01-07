@@ -56,10 +56,10 @@ const GalleryCard = ({ item }) => {
                         return (
                             <div
                                 key={d.id}
-                                className="block border-t-[5px] border border-lime-600 w-full sm:w-80 rounded-lg bg-white">
+                                className="block border-4 h-80 mb-12 border-lime-600 w-full sm:w-80 rounded-lg bg-white">
                                 <a href="#!">
                                     <img
-                                        className="rounded-t-lg h-full"
+                                        className="rounded-t-lg h-full  w-full"
                                         src={d.imgUrl}
                                         alt="" />
                                 </a>
