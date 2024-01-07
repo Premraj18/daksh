@@ -17,15 +17,15 @@ const divStyle = {
 }
 const slideImages = [
   {
-    url: '/crausal1.jpg',
+    url: '/crausal2.jpg',
     caption: 'Slide 1'
   },
   {
-    url: '/crausal2.jpg',
+    url: '/crausal1.jpg',
     caption: 'Slide 2'
   },
   {
-    url: '/crausal3.jpg',
+    url: '/crausal4.jpg',
     caption: 'Slide 3'
   },
 ];

@@ -30,7 +30,7 @@ const Card = (props) => {
                         {props.title}
                     </h5>
                     <p className="mb-4 text-base text-neutral-600 ">
-                        {props.description}...
+                        {props.description}
                     </p>
                     
                 </div>
