@@ -21,15 +21,15 @@ const Gallery = () => {
                     </div>
 
                     <div className='flex justify-center flex-wrap w-full mb-48'>
-                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setItem(manufacturing)}>Manufacturing</button>
-                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setItem(events)}>Events</button>
-                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setItem(Workshop)}>Workshop</button>
-                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setItem(GroupPhoto)}>Group Photos</button>
-                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-40 mx-5 my-2 px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setItem(celebration)}>Celebration</button>
                        
                     </div>
