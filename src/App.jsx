@@ -13,6 +13,7 @@ import Team from './pages/team/Team';
 import Participation from './pages/participation/Participation';
 import Achivement from './pages/achivement/Achivement';
 import ScrollToTop from './pages/ScrollToTop';
+import Gallery from './pages/Gallery/Gallery';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/ourteam" element={<Team />} />
           <Route path="/participation" element={<Participation/>} />
           <Route path="/achivements" element={<Achivement/>} />
+          <Route path="/gallery" element={<Gallery/>} />
         </Routes>
       </Router>
     </MyState>

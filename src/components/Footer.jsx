@@ -13,19 +13,19 @@ export default function Footer() {
                         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 lg:text-xl" style={{ color: mode === 'dark' ? 'white' : '' }}>Quick Link</h2>
                         <nav className="list-none mb-5 lg:text-lg">
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Home</a>
+                                <Link to='/home' className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Home</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>About</a>
+                                <Link to='/about' className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>About</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Team</a>
+                                <Link to='/ourteam' className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Team</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Achivements</a>
+                                <Link to='/achivements' className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Achivements</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Contact us</a>
+                                <Link to='' className="text-gray-600 hover:text-gray-800 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '' }}>Contact us</Link>
                             </li>
                         </nav>
                     </div>

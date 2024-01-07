@@ -30,7 +30,7 @@ const Team = () => {
     const { toggleMode, mode } = context
     return (
         <Layout>
-            <motion.div className="w-full  sm:block hidden sm:w-auto flex gap-20 flex-wrap bg-stone-100 pl-4 pr-4" style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', }}>
+            <motion.div className="w-full  sm:flex hidden sm:w-auto  gap-20 flex-wrap bg-stone-100 pl-4 pr-4" style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', }}>
                 <motion.div className='w-full sm:w-auto flex gap-10 flex-wrap pl-4 pr-4'
                     variants={variants}
                     initial='initial'
