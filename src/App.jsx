@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import MyState from './context/MyState';
-import Cursor from './components/cursor/Cursor';
+// import Cursor from './components/cursor/Cursor';
 import Team from './pages/team/Team';
 import Participation from './pages/participation/Participation';
 import Achivement from './pages/achivement/Achivement';
@@ -19,7 +19,7 @@ import Sponser from './pages/Sponser/Sponser';
 const App = () => {
   return (
     <MyState>
-      <Cursor/>
+      {/* <Cursor/> */}
       <Router>
       <ScrollToTop/>
         <Routes>

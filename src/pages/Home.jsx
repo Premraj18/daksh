@@ -13,12 +13,12 @@ const Home = () => {
   const { mode, toggleMode } = context;
   return (
     <Layout>
-      <HeroSection/>
+      {/* <HeroSection/>
       <About/>
-      <Achivement/>
+      <Achivement/> */}
       <ClubActivity/>
-      <SponsorCrausal/>
-      <Contact/>
+      {/* <SponsorCrausal/>
+      <Contact/> */}
     </Layout>
   )
 }
